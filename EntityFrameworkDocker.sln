@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E96BE299-AD2D-4A5F-BF4A-D0C3F517A029}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkSqlServer", "EntityFrameworkSqlServer\EntityFrameworkSqlServer.csproj", "{6768BAF2-509E-40E4-8846-0F8D27968C2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkSQLite", "EntityFrameworkSQLite\EntityFrameworkSQLite.csproj", "{29BFAFC5-014E-4191-8E07-3DC7D3611759}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E96BE299-AD2D-4A5F-BF4A-D0C3F517A029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E96BE299-AD2D-4A5F-BF4A-D0C3F517A029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E96BE299-AD2D-4A5F-BF4A-D0C3F517A029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E96BE299-AD2D-4A5F-BF4A-D0C3F517A029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6768BAF2-509E-40E4-8846-0F8D27968C2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6768BAF2-509E-40E4-8846-0F8D27968C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6768BAF2-509E-40E4-8846-0F8D27968C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6768BAF2-509E-40E4-8846-0F8D27968C2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29BFAFC5-014E-4191-8E07-3DC7D3611759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29BFAFC5-014E-4191-8E07-3DC7D3611759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29BFAFC5-014E-4191-8E07-3DC7D3611759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29BFAFC5-014E-4191-8E07-3DC7D3611759}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58208749-A65A-48C4-AC09-C5E4A2710C75}
+	EndGlobalSection
+EndGlobal

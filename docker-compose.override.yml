@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  EntityFrameworkSQLite:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "32034:80"
+
+  EntityFrameworkSqlServer:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "32033:80"

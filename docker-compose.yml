@@ -1,0 +1,29 @@
+version: '3.4'
+
+services:
+  EntityFrameworkSQLite:
+    image:  ${DOCKER_REGISTRY}orderswebapi
+    build:
+      context: .
+      dockerfile: EntityFrameworkSQLite/Dockerfile
+
+  EntityFrameworkSqlServer:
+    image:  ${DOCKER_REGISTRY}productswebapi
+    build:
+      context: .
+      dockerfile: EntityFrameworkSqlServer/Dockerfile
+    links:
+      - sqlserver
+
+  sqlserver:
+    image: microsoft/mssql-server-linux:2017-latest
+    hostname: 'sqlserver'
+    environment:
+      ACCEPT_EULA: Y
+      SA_PASSWORD: "BigPassw0rd"
+    volumes:
+      - ./data/mssql:/var/opt/mssql3
+    ports:
+      - '1433:1433'
+    expose:
+      - 1433
